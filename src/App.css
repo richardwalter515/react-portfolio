@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-navy {
+  background-color: rgb(0, 31, 88) !important;
+}
+
+.footer {
+position: sticky;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: rgb(0, 31, 88);
+color: white;
+text-align: center;
+}
+
+.project-card {
+  margin-left: 20px !important;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.fa-github {
+background-color: black;
+color: cornsilk;
+}
+#contact-me {
+text-align: center;
+outline-style: ridge;
+outline-color: rgb(0, 31, 88);
+}
+.navy {
+color: rgb(0, 31, 88);
+}
+.cursive-font {
+font-family: 'Kaushan Script', cursive;
+}
+.regular-font { 
+font-family: 'Francois One', sans-serif;
+}
+.div-border {
+border-style: double;
+border-color: rgb(0, 31, 88);
+padding: 5px;
+}
+
+#headshot {
+  width: 400px;
+  height: 400px;
+}
+
+#headshotDiv {
+  float: left;
+}
