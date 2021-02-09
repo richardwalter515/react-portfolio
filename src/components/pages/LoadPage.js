@@ -1,6 +1,8 @@
 import React from "react";
 
+
 function Load() {
+    setTimeout(function(){ window.location = "/Home"; },5000);
     return (
       <div>
           <div id="loadPageDiv">
@@ -11,6 +13,5 @@ function Load() {
     );
   }
 
-setTimeout(function(){ window.location = "/Home"; },5000);
 
 export default Load;
