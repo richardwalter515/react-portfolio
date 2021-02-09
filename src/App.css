@@ -109,3 +109,42 @@ padding: 5px;
 #headshotDiv {
   float: left;
 }
+
+body {
+  background-image: url("./images/background.jpg");
+  background-size: 100%;
+}
+
+#loadPageDiv {
+  border: 10px solid rgb(0, 31, 88);
+  outline: white solid 3px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@keyframes name {
+  from {color: rgb(0, 31, 88);}
+  to {color: white;}
+}
+
+#loadPageH1 {
+    animation-name: name;
+    animation-duration: 5s;
+}
+
+@keyframes title {
+  from {color: rgb(0, 31, 88);}
+  to {color: rgb(255, 255, 255);}
+}
+
+#loadPageH5 {
+    animation-name: title;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
