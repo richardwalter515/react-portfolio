@@ -6,7 +6,6 @@ import Card from 'react-bootstrap/Card';
 import noteTaker from '../../images/noteTaker.png';
 import soundtrackify from '../../images/project1.png';
 import weatherApp from '../../images/weather.png';
-import Button from 'react-bootstrap/Button'
 
 function Projects() {
   return (

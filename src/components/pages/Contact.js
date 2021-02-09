@@ -1,36 +1,44 @@
 import React from "react";
-import headshot from "../../images/redsweater.jpeg";
-import resume from "../../images/resume-pic.png"
+import resume from "../../images/resume-pic.png";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card'
 
 function Contact() {
   return (
-    <div class="container">
-      <div class="row pt-3">
-        <div class="col">
+    <Container>
+      <Row>
+        <Col>
           <h1 id="contact-me" class="display-4 cursive-font">Contact Me!</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <img src={headshot} alt="headshot" width="400" height="400"></img>
-        </div>
-        <div class="col div-border">
-          <h5 class="navy cursive-font">Email</h5>
-          <p>richardwalter515@gmail.com</p>
-          <h5 class="navy cursive-font">Phone</h5>
-          <p>(336) 264-4558</p>
-          <h5 class="navy cursive-font">Social Media Links</h5>
+        </Col>
+      </Row>
+      <Row>
+        <Col class="div-border">
+          <Card class="homeCardBody p-2">
+            <h5 class="navy cursive-font highlightText">Email</h5>
+            <p>richardwalter515@gmail.com</p>
+            <br></br>
+            <h5 class="navy cursive-font highlightText">Phone</h5>
+            <p>(336) 264-4558</p>
+          </Card>
+
+          <h5 class="navy cursive-font highlightText">Social Media Links</h5>
           <a href="https://www.linkedin.com/in/richard-walter-0bb141121/" target="_blank" class="fa fa-linkedin "></a> 
           <a href="https://twitter.com/richiewalter?lang=en" target="_blank" class="fa fa-twitter"></a>
           <a href="https://github.com/richardwalter515" target="_blank" class="fa fa-github"></a> 
-        </div>
-      <div class="col div-border">
-        <h5 class="navy cursive-font">Downloadable Resume</h5>
-        <img src={resume} alt="resume" width="250" height="300"></img>
+        </Col>
+      <Col>
+        <Card className="bg-dark text-white">
+          <Card.Img src={resume} alt="Card image" href="./assets/Resume-coding.pdf" download="Resume" />
+           <Card.ImgOverlay>
+              <Card.Title>Click to Download My Resume</Card.Title>
+          </Card.ImgOverlay>
+        </Card>
         <a href="./assets/Resume-coding.pdf" download="Resume" class="btn btn-outline-primary">PDF</a>
-      </div>
-    </div>
-  </div>
+      </Col>
+    </Row>
+  </Container>
   );
 }
 
