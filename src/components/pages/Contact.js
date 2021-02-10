@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button'
+import Resume from '../../images/Resume_RCW_Coding.pdf'
 
 function Contact() {
   return (
@@ -21,7 +21,7 @@ function Contact() {
             <Card.Img variant="top" src={resume} />
             <Card.Body>
               <Card.Title>My Resume</Card.Title>
-              <a href="./assets/Resume-coding.pdf" download="Resume" class="btn btn-outline-primary">Download PDF</a>
+              <a href={Resume} download="Resume" class="btn btn-outline-primary">Download PDF</a>
             </Card.Body>
           </Card>
         </Col>
