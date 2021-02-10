@@ -1,8 +1,12 @@
-import React from "react";
-
+import React, { useState } from 'react'
+import { Redirect } from 'react-router-dom'
 
 function Load() {
-    setTimeout(function(){ window.location = "/Home"; },5000);
+    const [redirectNow, setRedirectNow] = useState(false)
+    setTimeout(function(){ setRedirectNow(true) },5000);
+    if (redirectNow) {
+      return <Redirect to='/Home' />
+    }
     return (
       <div>
           <div id="loadPageDiv">
@@ -11,6 +15,8 @@ function Load() {
           </div>
     </div>
     );
+
+
   }
 
 
