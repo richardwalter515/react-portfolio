@@ -32,6 +32,7 @@ function Contact() {
             <p>richardwalter515@gmail.com</p>
             <h5 class="cursive-font highlightText">Phone</h5>
             <p>(336) 264-4558</p>
+            <h5 class="cursive-font highlightText">Professional Networks</h5>
             <div>
               <a href="https://www.linkedin.com/in/richard-walter-0bb141121/" target="_blank" class="fa fa-linkedin "></a> 
               <a href="https://github.com/richardwalter515" target="_blank" class="fa fa-github"></a> 
