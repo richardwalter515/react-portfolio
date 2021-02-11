@@ -25,7 +25,7 @@ function Home() {
 
 
     <footer class="footer">
-      Find me on <a href="https://twitter.com/richiewalter?lang=en" target="_blank">Twitter</a>, <a href="https://www.linkedin.com/in/richard-walter-0bb141121/" target="_blank">LinkedIn</a>, and <a href="https://github.com/richardwalter515" target="_blank">GitHub</a>
+      Find me on <a href="https://www.linkedin.com/in/richard-walter-0bb141121/" target="_blank">LinkedIn</a>, and <a href="https://github.com/richardwalter515" target="_blank">GitHub</a>
     </footer>
 
   </div>
