@@ -8,6 +8,7 @@ import Resume from '../../images/Resume_RCW_Coding.pdf'
 
 function Contact() {
   return (
+    <>
     <Container>
       <Row>
         <Col>
@@ -41,6 +42,10 @@ function Contact() {
         </Col>
      </Row>
   </Container>
+  <footer class="footer">
+      <p class="greyOut">- © Richard Walter -</p>
+    </footer>
+    </>
   );
 }
 

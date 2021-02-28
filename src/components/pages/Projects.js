@@ -12,7 +12,7 @@ function Projects() {
     <div>
       <Container>
         <Row>
-          <Col><h1 id="contact-me" class="display-4 cursive-font">Select Projects</h1><hr></hr></Col>
+          <Col><h1 id="contact-me" class="display-4 cursive-font">Recent Projects</h1><hr></hr></Col>
         </Row>
         <Row>
           <Col>
@@ -66,7 +66,13 @@ function Projects() {
           </Col>
         </Row>
       </Container>
+      <footer class="footer">
+      See more on <a href="https://github.com/richardwalter515" target="_blank">GitHub</a>
+      <br></br>
+      <p class="greyOut">- © Richard Walter -</p>
+    </footer>
     </div>
+    
   );
 }
 
