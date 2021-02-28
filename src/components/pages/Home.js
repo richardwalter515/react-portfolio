@@ -7,24 +7,23 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBootstrap, faCss3, faGithubSquare, faHtml5, faJs, faNode, faReact, faSwift } from '@fortawesome/free-brands-svg-icons';
 
 
-
 function Home() {
   return (
     <div>
       <Container fluid>
           <Row className="homeCard">
             <div class="col-lg-4" >
-                <img id="headshot" src={headshot} alt="Headshot" class="rounded-circle" />
+                <img id="headshot" src={headshot} alt="Headshot" class="rounded-circle navy-border" />
             </div>
             <div class="col-lg-8 p-5">
               <div>
                 <h2 class="card-title cursive-font navy">Richard Walter - Full Stack Developer</h2>
                 <hr></hr>
-                <p class="card-text">Leveraging a background in merchandise design in conjunction with strong knowledge of HTML, CSS, Javascript, React, JQuery, nodeJS, express, REST Apis, MySQL, noSQL, MongoDB, among others, my goal is to create an engaging user experience that is both intuitive and visually exciting.  I recently received my certificate in full-stack web development through the University of North Carolina at Chapel Hill, where I've honed several skills including utilizing API data, working with databases, and creating dynamically updated web pages and applications.  In my previous work in both merchandise and public relations, I worked well under pressure and was focused on using consumer engagement to continually update and improve our products, skills I look forward to bringing into my work as a developer.</p>
+                <p class="card-text">Leveraging a background in merchandise design in conjunction with strong knowledge of many front-end and back-end development technologies and frameworks, my goal is to create an engaging user experience that is both intuitive and visually exciting.  I recently received my certificate in full-stack web development through the University of North Carolina at Chapel Hill, where I've honed several skills including utilizing API data, working with databases, and creating dynamically updated web pages and applications.  In my previous work in both merchandise and public relations, I worked well under pressure and relished opportunities to think outside the box and find creative solutions that exceed client expectations, skills I look forward to bringing into my work as a developer.</p>
               </div>
             </div>
           </Row>
-          <Row className="skillsCard navy-border">
+          <Row className="skillsCard">
             <Col>
               <div>
                 <h1 class="cursive-font navy" id="text-center">Skills</h1>

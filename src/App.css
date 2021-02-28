@@ -185,12 +185,12 @@ body {
 }
 
 .homeCard {
-    background: rgba(255, 255, 255, 0.85) 
+    background: rgba(255, 255, 255, 0.85);
 }
 
 .skillsCard {
-  background: rgba(196, 196, 196, 0.7);
-  color: white;
+  background: rgba(255, 255, 255, 0.3);
+
 }
 
 #text-center {
@@ -213,4 +213,9 @@ body {
 td {
   font-size: xx-large;
   padding: 25px;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+
+.white-text {
+  color: white;
 }
