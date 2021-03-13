@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../images/resume-pic.png";
+import resume from "../../images/resume-pic.jpg";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -28,7 +28,7 @@ function Contact() {
         </Col>
 
         <Col class="col-7">
-          <Card class="homeCardBody p-2">
+          <Card className="homeCardBody p-2">
             <h5 class="cursive-font highlightText">Email</h5>
             <p>richardwalter515@gmail.com</p>
             <h5 class="cursive-font highlightText">Phone</h5>
@@ -44,7 +44,7 @@ function Contact() {
   </Container>
   <footer class="footer">
       <p class="greyOut">- © Richard Walter -</p>
-    </footer>
+  </footer>
     </>
   );
 }

@@ -5,7 +5,7 @@ const UnderLine = ({ color }) => (
         style={{
             color: color,
             backgroundColor: color,
-            height: 2,
+            height: 1,
             width: 150
         }}
     />
