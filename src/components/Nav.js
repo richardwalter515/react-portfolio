@@ -7,13 +7,13 @@ function Nav() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/react-portfolio/Home" className={location.pathname === "/Home" ? "nav-link active" : "nav-link"}>
+        <Link to="/Home" className={location.pathname === "/Home" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/react-portfolio/projects"
+          to="/projects"
           className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}
         >
           Projects
@@ -21,7 +21,7 @@ function Nav() {
       </li>
       <li className="nav-item">
         <Link
-          to="/react-portfolio/contact"
+          to="/contact"
           className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
         >
           Contact

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, HashRouter } from "react-router-dom";
 import Nav from "./components/Nav";
 import Load from "./components/pages/LoadPage";
 import Home from "./components/pages/Home";
@@ -9,15 +9,25 @@ import Contact from "./components/pages/Contact";
 
 function App() {
   return (
-    <Router>
+    <HashRouter hashType='slash'>
       <div>
         <Nav />
-          <Route exact path="/react-portfolio" component={Load}></Route>
-          <Route exact path="/react-portfolio/Home" component={Home}></Route>
-          <Route exact path="/react-portfolio/projects" component={Projects}></Route>
-          <Route exact path="/react-portfolio/contact" component={Contact}></Route>
+        <Switch>
+          <Route exact path="/">
+            <Load />
+          </Route>
+          <Route exact path="/Home">
+            <Home />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
