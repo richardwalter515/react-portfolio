@@ -5,7 +5,7 @@ function Load() {
     const [redirectNow, setRedirectNow] = useState(false)
     setTimeout(function(){ setRedirectNow(true) },5000);
     if (redirectNow) {
-      return <Redirect to='/Home' />
+      return <Redirect to='/react-portfolio/Home' />
     }
     return (
       <div>
