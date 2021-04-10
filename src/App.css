@@ -176,6 +176,18 @@ body {
   text-align: center;
 }
 
+#highlightYellow {
+  color: rgb(0, 3, 180);
+  background-color: rgb(255, 250, 176);
+  text-align: center;
+}
+
+#highlightPurple {
+  color: rgb(0, 3, 180);
+  background-color: rgb(226, 209, 255);
+  text-align: center;
+}
+
 .homeTitleText {
   color: #020066;
 }

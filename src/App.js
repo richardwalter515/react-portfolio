@@ -9,7 +9,7 @@ import Contact from "./components/pages/Contact";
 
 function App() {
   return (
-    <HashRouter hashType='slash'>
+    <HashRouter>
       <div>
         <Nav />
         <Switch>
