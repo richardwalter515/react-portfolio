@@ -16,7 +16,7 @@ function Home() {
             <div class="bioDiv">
               <h2 class="cursive-font navy skillsCard bioDiv">Richard Walter - Full Stack Developer</h2>
               <hr></hr>
-              <p class="card-text bioDiv">Leveraging a background in merchandise design in conjunction with strong knowledge of many front-end and back-end development technologies and frameworks, my goal is to create an engaging user experience that is both intuitive and visually exciting.  I recently received my certificate in full-stack web development through the University of North Carolina at Chapel Hill, where I've honed several skills including utilizing API data, working with databases, and creating dynamically updated web pages and applications.  In my previous work in both merchandise and public relations, I worked well under pressure and relished opportunities to think outside the box and find creative solutions that exceed client expectations, skills I look forward to bringing into my work as a developer.</p>
+              <p class="card-text bioDiv">As a passionate and outgoing Technical Account Manager, I have experience managing difficult technical issues and collaborating across departments to advocate for my client.  In my previous work as a Merchandise Manager, I gained strong leadership skills and learned to be creative, empathetic, and thoughtful about solving problems and providing an excellent customer experience while supporting my team however I could.</p>
             </div>
           </Col>
         </Row>

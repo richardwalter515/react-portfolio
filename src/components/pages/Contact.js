@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Resume from '../../images/Resume_RCW_Coding.pdf'
+import Resume from '../../images/Resume_RCW_technical.pdf'
 
 function Contact() {
   return (
