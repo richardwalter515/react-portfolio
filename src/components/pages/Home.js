@@ -14,7 +14,7 @@ function Home() {
           <Col className="skillsCard">
               <Image src={headshot} className="headshotDiv" width="350px" height="350px"/>
             <div class="bioDiv">
-              <h2 class="cursive-font navy skillsCard bioDiv">Richard Walter - Full Stack Developer</h2>
+              <h2 class="cursive-font navy skillsCard bioDiv">Richard Walter - Technical Account Manager</h2>
               <hr></hr>
               <p class="card-text bioDiv">As a passionate and outgoing Technical Account Manager, I have experience managing difficult technical issues and collaborating across departments to advocate for my client.  In my previous work as a Merchandise Manager, I gained strong leadership skills and learned to be creative, empathetic, and thoughtful about solving problems and providing an excellent customer experience while supporting my team however I could.</p>
             </div>
