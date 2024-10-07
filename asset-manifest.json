@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.817840cb.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.5840b538.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.5840b538.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.1460c774.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.ed4c07aa.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.ed4c07aa.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.15f7a3dd.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.15f7a3dd.js.map",
     "static/css/2.150d169a.chunk.css": "/react-portfolio/static/css/2.150d169a.chunk.css",
-    "static/js/2.a3697ce0.chunk.js": "/react-portfolio/static/js/2.a3697ce0.chunk.js",
-    "static/js/2.a3697ce0.chunk.js.map": "/react-portfolio/static/js/2.a3697ce0.chunk.js.map",
+    "static/js/2.7b5a5847.chunk.js": "/react-portfolio/static/js/2.7b5a5847.chunk.js",
+    "static/js/2.7b5a5847.chunk.js.map": "/react-portfolio/static/js/2.7b5a5847.chunk.js.map",
     "static/js/3.71b37c15.chunk.js": "/react-portfolio/static/js/3.71b37c15.chunk.js",
     "static/js/3.71b37c15.chunk.js.map": "/react-portfolio/static/js/3.71b37c15.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.150d169a.chunk.css.map": "/react-portfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.817840cb.chunk.css.map": "/react-portfolio/static/css/main.817840cb.chunk.css.map",
-    "static/js/2.a3697ce0.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.a3697ce0.chunk.js.LICENSE.txt",
-    "static/media/Resume_RCW_technical.b245f1f0.pdf": "/react-portfolio/static/media/Resume_RCW_technical.b245f1f0.pdf",
+    "static/css/main.1460c774.chunk.css.map": "/react-portfolio/static/css/main.1460c774.chunk.css.map",
+    "static/js/2.7b5a5847.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7b5a5847.chunk.js.LICENSE.txt",
+    "static/media/Richard_Walter_Resume.3294730a.pdf": "/react-portfolio/static/media/Richard_Walter_Resume.3294730a.pdf",
     "static/media/App.css": "/react-portfolio/static/media/background.54b6b5e8.jpg",
     "static/media/gameKnight.15f2da79.png": "/react-portfolio/static/media/gameKnight.15f2da79.png",
     "static/media/logo.6ce24c58.svg": "/react-portfolio/static/media/logo.6ce24c58.svg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.15f7a3dd.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.a3697ce0.chunk.js",
-    "static/css/main.817840cb.chunk.css",
-    "static/js/main.5840b538.chunk.js"
+    "static/js/2.7b5a5847.chunk.js",
+    "static/css/main.1460c774.chunk.css",
+    "static/js/main.ed4c07aa.chunk.js"
   ]
 }
