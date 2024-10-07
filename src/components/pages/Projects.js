@@ -183,7 +183,7 @@ function Projects() {
             </h2>
             <Row>
               <Col>
-                <div class="bioDiv initiativeText">
+                <div class="initiativeText">
                   <h5 class="cursive-font initiativeHeader">
                     Onboarding Leader
                   </h5>
@@ -213,7 +213,7 @@ function Projects() {
                   </p>
                 </div>
                 <br></br>
-                <div class="bioDiv initiativeText">
+                <div class="initiativeText">
                   <h5 class="cursive-font initiativeHeader">
                     TAM Playbooks Coordinator
                   </h5>
