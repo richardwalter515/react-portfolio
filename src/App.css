@@ -262,3 +262,9 @@ td {
 .white-text {
   color: white;
 }
+
+.imgBorder {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(0, 31, 88);
+}

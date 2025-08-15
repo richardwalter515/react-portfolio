@@ -1,10 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter as Router, Route, Switch, HashRouter } from "react-router-dom";
+import logo from "./logo.svg";
+import "./App.css";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  HashRouter,
+} from "react-router-dom";
 import Nav from "./components/Nav";
 import Load from "./components/pages/LoadPage";
 import Home from "./components/pages/Home";
 import Projects from "./components/pages/Projects";
+import Experience from "./components/pages/Experience";
 import Contact from "./components/pages/Contact";
 
 function App() {
@@ -21,6 +27,9 @@ function App() {
           </Route>
           <Route exact path="/projects">
             <Projects />
+          </Route>
+          <Route exact path="/experience">
+            <Experience />
           </Route>
           <Route exact path="/contact">
             <Contact />
