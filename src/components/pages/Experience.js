@@ -44,9 +44,10 @@ function Experience() {
                 </li>
                 <li>Mentors and trains newer team members.</li>
                 <li>
-                  Promoted to Senior TAM for my consistently strong customer
-                  relationships and cross-department collaboration resulting in
-                  significant contract growth and expansion of TAM spend on
+                  Promoted to Senior TAM for consistently strong customer
+                  relationships, team leadership initiatives, and
+                  cross-department collaboration resulting in significant
+                  customer growth and expansion of the TAM engagement on
                   renewals.
                 </li>
               </ul>
