@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../images/resumePic.png";
+import resume from "../../images/resumePic2.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
